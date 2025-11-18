@@ -78,9 +78,9 @@ Shared Properties:
 ### Each row contains:
 Type,Title,Artist/Author/Creator,Album (or N/A),Year,Month,Day,Duration,Rating
 ### Example Entries:
-Track,Bound 2,Kanye West,Yeezus,2013,5,2,4,4.8
-AudioBook,Exit West,Mohsin Hamid,N/A,2017,4,15,282,Thumbs_up
-Podcast,The Daily,Michael Barbaro,N/A,2023,12,4,28,7
+Track,Bound 2,Kanye West,Yeezus,2013,5,2,4,4.8<br>
+AudioBook,Exit West,Mohsin Hamid,N/A,2017,4,15,282,Thumbs_up<br>
+Podcast,The Daily,Michael Barbaro,N/A,2023,12,4,28,7<br>
 
 ## Reading from CSV
 Program:
@@ -89,8 +89,8 @@ Program:
 - Splits each line by commas
 - Determines media type
 - Constructs the appropriate Sound child object
-- Adds each entry to a List<Sound>
-#### All invalid formatting is rejected through property validation
+- Adds each entry to a List<Sound><br>
+All invalid formatting is rejected through property validation
 
 ## Writing to CSV
 The Write() method:
@@ -104,8 +104,8 @@ The Write() method:
 The project uses selection sort, manually implemented, for:
 - Sort by rating (Track, AudioBook, Podcast -- each separately)
 - Sort by year
-- Sort by title
-#### Because each media type stores rating differently, the sort uses the overriden CompareTo() implementations inside each class
+- Sort by title<br>
+Because each media type stores rating differently, the sort uses the overriden CompareTo() implementations inside each class
 
 ## How to Run the Program
 1. Open the projeect folder in Visual Studio or VS Code
