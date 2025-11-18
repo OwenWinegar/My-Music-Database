@@ -61,17 +61,17 @@ Shared Properties:
 - Sorts by rating (descending)
 
 ### AudioBook
-Adds:
+#### Adds:
 - Author
 - Rating (enum AudioRating { Thumbs_up, Thumbs_down })
-Comparison:
-- Sorts by rating (Thumbs_up z> Thumbs_down)
+#### Comparison:
+- Sorts by rating (Thumbs_up > Thumbs_down)
 
 ### Podcast
-Adds:
+#### Adds:
 - Creator
 - Rating (int 1-10)
-Comparison:
+#### Comparison:
 - Sorts numerically
 
 ## CSV Format
