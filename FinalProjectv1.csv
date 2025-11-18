@@ -1,0 +1,21 @@
+Type, Title, Artist(Track) Author(AudioBook) or Creator(Podcast), Album(Track ONLY), Year, Month, Day, Duration, Rating
+Track,Bound 2,Kanye West,Yeezus,2013,5,2,4,4.8
+Track,Devil In A New Dress,Kanye West,My Beautiful Dark Twisted Fantasy,2010,12,3,6,5
+Track,Spaceship,Kanye West,The College Dropout,2004,11,4,6,4.8
+Track,Hey Ya!,OutKast,Speakerboxxx/The Love Below,2003,8,18,4,4.3
+Track,20 Min,Lil Uzi Vert,Luv Is Rage 2 (Deluxe),2017,10,2,4,4.4
+Track,Neon Guts,Lil Uzi Vert,Luv Is Rage 2 (Deluxe),2017,6,12,5,3.9
+Track,N Side,Steve Lacy,Apollo XXI,2019,5,12,4,4.1
+Track,No Role Modelz,J. Cole,2014 Forest Hills Drive,2014,4,30,5,4.3
+Track,HIBIKI,Bad Bunny,nadie sabe lo qua va a pasar mañana,2023,11,27,3,4.5
+Track,FEEL.,Kendrick Lamar,DAMN.,2017,3,17,4,3.9
+AudioBook,Exit West,Mohsin Hamid,N/A,2017,4,15,282,Thumbs_up
+AudioBook,Yearbook,Seth Rogen,N/A,2021,5,17,374,Thumbs_up
+AudioBook,My Sister the Serial Killer,Oyinkan Braithwaite,N/A,2018,3,28,255,Thumbs_up
+AudioBook,My Name is Lucy Barton (Dramatic Production),Eliabeth Strout and Rona Munro,N/A,2020,4,17,86,Thumbs_down
+AudioBook,Creative Types,Tom Bissell,N/A,2021,9,13,376,Thumbs_down
+Podcast,The Joe Rogan Experience,Joe Rogan,N/A,2023,4,12,158,8
+Podcast,The Daily,Micahel Barbaro and Sabrina Tavernise,N/A,2023,12,4,28,7
+Podcast,Stuff You Should Know,Josh Clark and Wayne Bryant,N/A,2023,4,16,47,6
+Podcast,WTF with Marc Maron,Marc Maron,N/A,2023,9,28,75,7
+Podcast,Radiolab,WNYC,N/A,2023,5,24,48,6
