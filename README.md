@@ -51,3 +51,64 @@ Shared Properties:
 - Duration
 - Abstract: Rating
 - Implements IComparable
+
+### Track
+Adds:
+- Artist
+- Album
+- Rating (double, 0-5)
+Comparison:
+- Sorts by rating (descending)
+
+### AudioBook
+Adds:
+- Author
+- Rating (enum AudioRating { Thumbs_up, Thumbs_down })
+Comparison:
+- Sorts by rating (Thumbs_up z> Thumbs_down)
+
+### Podcast
+Adds:
+- Creator
+- Rating (int 1-10)
+Comparison:
+- Sorts numerically
+
+## CSV Format
+### Each row contains:
+Type,Title,Artist/Author/Creator,Album (or N/A),Year,Month,Day,Duration,Rating
+### Example Entries:
+Track,Bound 2,Kanye West,Yeezus,2013,5,2,4,4.8
+AudioBook,Exit West,Mohsin Hamid,N/A,2017,4,15,282,Thumbs_up
+Podcast,The Daily,Michael Barbaro,N/A,2023,12,4,28,7
+
+## Reading from CSV
+Program:
+- Opens the file
+- Skips the header
+- Splits each line by commas
+- Determines media type
+- Constructs the appropriate Sound child object
+- Adds each entry to a List<Sound>
+All invalid formatting is rejected through property validation
+
+## Writing to CSV
+The Write() method:
+- Overwrites the existing file
+- Rewrites the header
+- Loops through all Sound objects
+- Formats each line according to its media type
+- Outputs the updated list in a consistent, clean structure
+
+## Sorting Algorithms
+The project uses selection sort, manually implemented, for:
+- Sort by rating (Track, AudioBook, Podcast -- each separately)
+- Sort by year
+- Sort by title
+Because each media type stores rating differently, the sort uses the overriden CompareTo() implementations inside each class
+
+## How to Run the Program
+1. Open the projeect folder in Visual Studio or VS Code
+2. Ensure FinalProjectv1.csv is in the project directory
+3. Build and run the program
+4. Use the menu system to interact with the media database
