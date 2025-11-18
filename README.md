@@ -53,11 +53,11 @@ Shared Properties:
 - Implements IComparable
 
 ### Track
-Adds:
+#### Adds:
 - Artist
 - Album
 - Rating (double, 0-5)
-Comparison:
+#### Comparison:
 - Sorts by rating (descending)
 
 ### AudioBook
