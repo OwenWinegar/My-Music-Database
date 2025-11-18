@@ -90,7 +90,7 @@ Program:
 - Determines media type
 - Constructs the appropriate Sound child object
 - Adds each entry to a List<Sound>
-All invalid formatting is rejected through property validation
+##### All invalid formatting is rejected through property validation
 
 ## Writing to CSV
 The Write() method:
@@ -105,7 +105,7 @@ The project uses selection sort, manually implemented, for:
 - Sort by rating (Track, AudioBook, Podcast -- each separately)
 - Sort by year
 - Sort by title
-Because each media type stores rating differently, the sort uses the overriden CompareTo() implementations inside each class
+##### Because each media type stores rating differently, the sort uses the overriden CompareTo() implementations inside each class
 
 ## How to Run the Program
 1. Open the projeect folder in Visual Studio or VS Code
